@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+table, th, td{
+    border-bottom:1px solid rgba(0, 0, 0, 0.514);
+    border-collapse: collapse;
+    margin: 12%;
+}
+
+ th{
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    outline: none;
+    width:100px;
+    padding: 10px;
+}
+
+td{
+    padding-left: 20px;
+}
+
+input{
+    width:55%;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea{
+    border: none;
+}
+
+.amount{
+    cursor:not-allowed;
+}
