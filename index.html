@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invoice Generator</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    
+    <table>
+        <tr>
+            <th>Item Description</th>
+            <th id="quantity">Qty</th>
+            <th id="rate">Rate</th>
+            <th>SGST</th>
+            <th>CGST</th>
+            <th>Cess</th>
+            <th id="amount">Amount</th>
+        </tr>
+        <tr>
+            <td><textarea placeholder="Enter item name/description"></textarea><br>
+            <textarea placeholder="HSN/SAC"></textarea></td>
+            <td><input type="number" placeholder="1" min="0"></td>
+            <td><input type="number" placeholder="0.00" min="0"></td>
+            <td><input type="number" placeholder="0" min="0"></td>
+            <td><input type="number" placeholder="0" min="0"></td>
+            <td><input type="number" placeholder="0" min="0"></td>
+            <td><input class="amount" placeholder="0.00"></td>
+ 
+
+        </tr>
+
+    </table>
 </body>
 </html>
